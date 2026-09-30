@@ -127,3 +127,15 @@ footer{background:#06182d;color:#c8d5e4;padding:70px 0 24px}
   .state-list{grid-template-columns:1fr}.portfolio-grid{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(4,230px)}.portfolio-grid .p1,.portfolio-grid .p4{grid-row:auto;grid-column:auto}
   .footer-grid{grid-template-columns:1fr}
 }
+
+/* Hero fixes */
+.site-header{top:0}
+.hero{padding-top:18px}
+.hero-grid{padding-top:86px!important}
+.visual-card{aspect-ratio:4/3!important;min-height:0}
+.visual-card img{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-copy{padding-top:10px}
+@media(max-width:980px){
+  .hero-grid{padding-top:48px!important}
+  .hero h1{margin-top:12px}
+}
